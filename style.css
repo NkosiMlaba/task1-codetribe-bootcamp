@@ -23,8 +23,6 @@ body, a {
 .footer-nav{
     display: flex;
     flex-wrap: wrap;
-    /* align-items: center; */
-
 }
 
 nav {
