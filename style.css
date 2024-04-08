@@ -8,12 +8,12 @@ body, a {
 
 .desktop-nav {
     display: flex;
-    padding-right: 20px;
+    padding-right: 10vw;
 }
 
 .nav-links {
     display: flex;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 .footer-nav{
@@ -33,6 +33,7 @@ nav {
     gap: 1rem;
     list-style: none;
     font-size: 1.5rem;
+
   }
 
 .logo {
@@ -101,4 +102,20 @@ button {
     border-color: white;
     border-radius: 1rem;
 
+}
+
+.about-container {
+    align-items: center;
+    text-align: center
+}
+
+.contact-email {
+    text-align: center;
+    padding: 5px;
+    border: solid black;
+    border-radius: 1rem;
+}
+
+i {
+    font-size: 100px;
 }
