@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* common */
 body, a {
     font-family: "Montserrat", sans-serif;
     color: black;
@@ -104,6 +105,7 @@ button {
     text-align: center
 }
 
+/* contact */
 .contact-email {
     text-align: center;
     padding: 5px;
@@ -111,6 +113,7 @@ button {
     border-radius: 1rem;
 }
 
+/* about me */
 i {
     font-size: 100px;
 }
