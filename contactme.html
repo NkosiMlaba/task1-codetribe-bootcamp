@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Contact me</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -33,23 +33,32 @@
         </p>
     </div> -->
 
-    <form id="contactForm">
-        <label for="name">Name and Surname:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
-        
-        <label for="email">Email Address:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-        
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" required></textarea><br><br>
-        
-        <label for="phone">Phone Number:</label><br>
-        <input type="tel" id="phone" name="phone"><br><br>
-        
-        <!-- Add any other necessary inputs here -->
-        
-        <button type="button" onclick="submitForm()">Submit</button>
-    </form>
+    
+    <div style="display: flex; justify-content: center;">
+        <form id="contact-form" style="text-align: center;">
+            <div id="form-inputs">
+                <label for="name">Name and Surname:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+            </div>
+            
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+            
+            <!-- Add any other necessary inputs here -->
+            <div id="form-buttons">
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    
+    
     
     
     
