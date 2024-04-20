@@ -2,7 +2,7 @@
 // contains code common amongst all pages like navigation and footer
 // as a result it only gets changed in one place
 
-// 
+// chose not to create other variable to place the information as it uses more memory
 
 export const loadNavigation = `
         <div class="logo">
