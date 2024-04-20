@@ -12,7 +12,7 @@ export const loadNavigation = `
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="aboutme.html">About</a></li>
-                <li><a href="contactme.html">Contact Us</a></li>
+                <li><a href="contactme.html">Contact</a></li>
             </ul>
         </div>
     `;
