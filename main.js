@@ -2,6 +2,8 @@
 // contains code common amongst all pages like navigation and footer
 // as a result it only gets changed in one place
 
+// 
+
 export const loadNavigation = `
         <div class="logo">
             <img src="assets/logo.png" alt="logo">

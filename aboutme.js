@@ -109,6 +109,25 @@ function loadContent() {
     `;
     document.getElementById('about-container').innerHTML = aboutContainerContent;
 
+    const skillIcons = ["devicon-canva-original colored", "devicon-css3-plain colored",
+    "devicon-git-plain-wordmark colored", "devicon-python-plain-wordmark colored",
+    "devicon-java-plain-wordmark colored", "devicon-javascript-plain colored",
+    "devicon-linux-plain colored", "devicon-vscode-plain-wordmark colored", ]
+    const skillHeader = "Skills"
+    var actualSkillData = []
+    skillIcons.forEach(item => {
+        actualSkillData.push(`<i class="${item}"></i>`)
+    })
+
+
+    const skillLogos = `<div class="skills">
+                            <h2>${skillHeader}</h2>
+                            ${actualSkillData.join("")}
+                        </div>
+                    </div>
+    `;
+    document.getElementById('skills-logo-container').innerHTML = skillLogos;
+
     // Footer
     const footerContent = loadFooter;
     document.getElementById('footer').innerHTML = footerContent;

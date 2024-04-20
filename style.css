@@ -152,5 +152,8 @@ i {
     width: 10vw;
     padding-left: 5vw;
     padding-right: 5vw;
+}
 
+#skills-logo-container {
+    text-align: center;
 }
