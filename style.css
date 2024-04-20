@@ -40,42 +40,15 @@ nav {
     padding-left: 5vw;
 }
 
-.videos {
-    height: 57vw;
-}
-
-.videos video {
-    width: 100%;
-}
-
-.container {
-    position: relative;
-    display: flex;
-    align-items: center;
+td {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .text {
     flex: 1;
     padding: 20px;
-}
-
-.image {
-    flex: 1;
-    padding: 5px;
-    text-align: right;
-    
-}
-
-.image img {
-    max-width: 100%;
-    height: 30vw;
-    border-radius: 50%;
-}
-
-td {
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 button {
@@ -100,10 +73,40 @@ button {
 
 }
 
+
+/* index */
+.videos {
+    height: 57vw;
+}
+
+.videos video {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    flex: 1;
+    padding: 5px;
+    text-align: right;
+    
+}
+
+.image img {
+    max-width: 100%;
+    height: 30vw;
+    border-radius: 50%;
+}
+
 .about-container {
     align-items: center;
     text-align: center
 }
+
 
 /* contact */
 .contact-email {
